@@ -1,9 +1,9 @@
 const apiURL = 'http://localhost:3000'
-
 const displayBooks = async () => {
   const displayNode = document.getElementById('display')
   const data = await ( await fetch(apiURL + '/books')).json()
   data.books.forEach(book => {
+    debugger
     const displayBookNode = document.createElement('div')
     let html = `<p>${book.title} by: ${book.author}</p>`
     displayBookNode.innerHTML = html
