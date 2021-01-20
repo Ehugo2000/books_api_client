@@ -1,0 +1,10 @@
+{
+  "name": "books_api_client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "superstatic": "^7.1.0"
+  }
+}
